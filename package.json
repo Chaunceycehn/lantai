@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/Chaunceycehn/lantai/issues"
   },
-  "homepage": "https://github.com/Chaunceycehn/lantai#readme"
+  "homepage": "https://github.com/Chaunceycehn/lantai#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
