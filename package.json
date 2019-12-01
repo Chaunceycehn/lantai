@@ -1,0 +1,23 @@
+{
+  "name": "lantai",
+  "version": "1.0.0",
+  "description": "UI框架一个",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaunceycehn/lantai.git"
+  },
+  "keywords": [
+    "vue",
+    "ui"
+  ],
+  "author": "chauncy chen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Chaunceycehn/lantai/issues"
+  },
+  "homepage": "https://github.com/Chaunceycehn/lantai#readme"
+}
