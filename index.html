@@ -26,22 +26,15 @@
             font-size: var(--font-size);
             margin: 40px;
         }
-        .icon {
-            width: 1em; height: 1em;
-            vertical-align: -0.15em;
-            fill: currentColor;
-            overflow: hidden;
-        }
     </style>
 </head>
 <body>
 <div id="app">
-    <g-button icon="" >我爱JS</g-button>
-    <g-button icon="" >我爱JS</g-button>
-    <g-button icon="shezhi" icon-position="left">我爱JS</g-button>
-    <g-button icon="shezhi" icon-position="right">我爱JS</g-button>
+    <l-button icon="shezhi" icon-position="left" @click="loading = !loading">按钮</l-button>
+    <l-button icon="shezhi" :loading="loading" @click="loading = !loading">按钮</l-button>
+    <l-icon name="load"></l-icon>
 </div>
 <script src="./src/app.js"></script>
-<script src="//at.alicdn.com/t/font_1552578_kxuhvednz9d.js"></script>
+<script src="//at.alicdn.com/t/font_1552578_p9uq4udm4df.js"></script>
 </body>
 </html>
