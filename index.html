@@ -4,31 +4,43 @@
     <meta charset="UTF-8">
     <title>lantai</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        :root{
-            --button-height:32px;
-            --font-size:14px;
-            --button-bg:white;
-            --button-active-bg:#eee;
-            --border-radius:4px;
-            --color:#333;
-            --border-color:#999;
-            --border-color-hover:#666;
+
+        :root {
+            --button-height: 36px;
+            --button-width: 91px;
+            --font-size: 12px;
+            --button-bg: rgba(224, 225, 226, 1);
+            --button-active-bg: #eee;
+            --border-radius: 4px;
+            --color: #000000;
+            --border-color: rgba(224, 225, 226, 0);
+            --border-color-hover: rgba(224, 225, 226, 0.3);
         }
-        body{
+
+        body {
             font-size: var(--font-size);
+            margin: 40px;
+        }
+        .icon {
+            width: 1em; height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
         }
     </style>
 </head>
 <body>
 <div id="app">
-    中文按钮
-    <g-button></g-button>
+    <g-button icon="" icon-position="">我爱JS</g-button>
+    <g-button icon="shezhi" icon-position="left">我爱JS</g-button>
+    <g-button icon="shezhi" icon-position="right">我爱JS</g-button>
 </div>
 <script src="./src/app.js"></script>
+<script src="//at.alicdn.com/t/font_1552578_kxuhvednz9d.js"></script>
 </body>
 </html>
